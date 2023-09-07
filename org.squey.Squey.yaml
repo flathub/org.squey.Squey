@@ -1,6 +1,6 @@
 app-id: org.squey.Squey
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: squey_launcher.sh
 finish-args:
@@ -17,5 +17,5 @@ modules:
       - cp -r files/* /app
     sources:
       - type: archive
-        url: https://squey.gitlab.io/squey/squey_flatpak_4.9.15.tar.xz
-        sha256: c3ee17b7c02dec22234d32432d7a8af5281afbccdc6a3cd978ac294e7df13c58
+        url: https://squey.gitlab.io/squey/squey_flatpak_4.9.16.tar.xz
+        sha256: 9c9389a0afb05f6c5eca55bbd2f830517f82d314d6df4ba923a79299fe49b30a
