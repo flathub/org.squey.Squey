@@ -4,7 +4,8 @@ runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 command: squey_launcher.sh
 finish-args:
-  - --socket=x11
+  - --socket=wayland
+  - --socket=fallback-x11
   - --share=network
   - --share=ipc
   - --filesystem=host
@@ -17,5 +18,5 @@ modules:
       - cp -r files/* /app
     sources:
       - type: archive
-        url: https://squey.gitlab.io/squey/squey_flatpak_4.9.20.tar.xz
-        sha256: 06a88fd9ab5fc263725a04c159bf204b7a795270eeeb94ee8dcf6419ada1329d
+        url: https://squey.gitlab.io/squey/squey_flatpak_5.0.0.tar.xz
+        sha256: 586b670994abac2e00d8d42d559c07487c53a5af73f625ccbe8e7ab5b1161943
