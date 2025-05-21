@@ -18,5 +18,5 @@ modules:
       - cp -r files/* /app
     sources:
       - type: archive
-        url: https://squey.gitlab.io/squey/squey_flatpak_5.0.5.tar.xz
-        sha256: 6107ff37942dd184747ddd0f407a87ab1584e922b141f7b4f857ebbf7e3f3fc4
+        url: https://squey.gitlab.io/squey/squey_flatpak_5.0.6.tar.xz
+        sha256: af3d4ad8054c9800a9962a844e508947bd8825ccb58bcb1be39a81d3fdc51f3a
