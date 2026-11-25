@@ -8,7 +8,8 @@ finish-args:
   - --socket=fallback-x11
   - --share=network
   - --share=ipc
-  - --filesystem=host
+  - --filesystem=~/.squey:create
+  - --filesystem=xdg-config/wireshark:ro
   - --device=dri
   - --allow=devel
 modules:
@@ -18,5 +19,5 @@ modules:
       - cp -r files/* /app
     sources:
       - type: archive
-        url: https://squey.gitlab.io/squey/squey_flatpak_5.2.2.tar.xz
-        sha256: 5b402b3ce0a7d8c7d67e57249ff57ed49d7a009aa33c5f748af44258dd488c0a
+        url: https://squey.gitlab.io/squey/squey_flatpak_5.3.0.tar.xz
+        sha256: ecde25790a4caf90ab1b96ff3c9fe7a3c0a25038f99f37e596d3b1d4e6cdd67d
